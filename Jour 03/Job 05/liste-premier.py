@@ -1,7 +1,6 @@
-# for nbr in range(100):
-#    if (nbr % ):
-#        print(nbr % 27)
-
-for number in range(1001):
-    if(number  ):
-        print(number)
+for n in range(2, 1000):
+    for x in range(2, n):
+        if n % x == 0:
+            break
+    else:
+        print(n)
