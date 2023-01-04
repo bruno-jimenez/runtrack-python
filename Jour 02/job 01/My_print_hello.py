@@ -1,0 +1,2 @@
+prenom = Bruno
+print (prenom )
